@@ -2,6 +2,7 @@
    background-color: black;
    color: white;
 }
+
 .bg-img {
     /* The image used */
     background-image: url("images/pexels-alexander-krivitskiy-1572878.jpg");
@@ -39,4 +40,28 @@
   /* padding-top: 30px 30px; */
   margin: 200px;
  
+}
+/* mini-gallery */
+.gallery-style.container{
+  background-color: #161513;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+  margin: 0px;
+}
+.gallery-pic-box{
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.first-row{
+ padding-bottom: 30px;
+}
+.second-row{
+  padding-bottom: 30px;
+}
+.third-row{
+  padding-bottom: 30px;
 }
