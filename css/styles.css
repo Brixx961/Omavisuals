@@ -2,6 +2,12 @@
    background-color: black;
    color: white;
 }
+h3{
+  font-family: "Josefin sans";
+  font-size: 26px;
+  align-items: center;
+}
+
 
 .bg-img {
     /* The image used */
@@ -31,8 +37,10 @@
   font-size: 58px;
 }
 /* descriptiveContent */
-.body-content{
+.body-content1{
   background-color:  #161513;
+  justify-content: center;
+  text-align: center;
 }
 .descriptive-content{
   display: block;
@@ -64,4 +72,49 @@
 }
 .third-row{
   padding-bottom: 30px;
+}
+
+/* first-gallery */
+.gallery1{
+  display: flex;
+  height: 600vh;
+  
+}
+
+.gallery-container{
+  display: flex;
+  /* width: 250px;
+  height: 200px; */
+  width: 1000px;
+  position: relative;
+  padding: 0px 100px;
+  padding-top: 20px;
+  
+}
+
+.gallery-container2{
+padding-top: 60px;
+}
+
+.gallery-container3{
+  padding-top: 60px;
+}
+
+.gallery-image{
+  height: 220px;
+  width: 220px
+
+
+}
+
+.gallery-item{
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  grid-template-rows: 1fr;
+}
+
+.gallery-title{
+  grid-column: span 3;
+  align-items: center;
+  justify-content: center;
 }
