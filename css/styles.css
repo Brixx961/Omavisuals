@@ -118,3 +118,21 @@ padding-top: 60px;
   align-items: center;
   justify-content: center;
 }
+
+.second-gallery-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  gap: 2rem;
+  margin: Opx auto;
+  justify-content: spa
+
+}
+
+.gallery-image{
+  /* width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+  
+} 
